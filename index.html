@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#">Awesome Books</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#" data-link="1" class="link list-link">List</a></li>
+          <li>|</li>
+          <li>
+            <a href="#" data-link="2" class="link book-link">Add Books</a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href="#" data-link="3" class="link contact-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="date"></div>
+
+    <div class="books section section-1 active">
+      <h1>All awesome Books</h1>
+      <div class="books-collection"></div>
+    </div>
+
+    <div class="add-book section section-2">
+      <h3>Add a new book</h3>
+      <form action="">
+        <div>
+          <input
+            type="text"
+            class="title"
+            id="title"
+            name="title"
+            placeholder="title"
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            class="author"
+            id="author"
+            name="author"
+            placeholder="author"
+          />
+        </div>
+        <button type="submit" class="submit">Add</button>
+      </form>
+    </div>
+
+    <section class="contact section section-3">
+      <h2>Contact</h2>
+      <p>Do you hav any question or you just want to say "Hello"?</p>
+      <p>you can reachout to us!</p>
+      <ul>
+        <li>
+          our email
+          <a href="mailto:anasabubakar2015@gmail.com"
+            >anasabubakar2015@gmail.com</a
+          >
+        </li>
+        <li>our phone <a href="tel:+2348140088920">+2348140088920.</a></li>
+        <li>our address Lagos Nigeria.</li>
+      </ul>
+    </section>
+    <footer>Copyright.</footer>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
